@@ -1,0 +1,1 @@
+const gameName = new String("Cricket") // another syntax of difining String
