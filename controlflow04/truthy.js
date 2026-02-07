@@ -16,7 +16,7 @@
 //    console.log("Don't have user email")
 //}
 
-const userEmail = [];
+const userEmail = [];                       // [] => empty array consider as truthy value/true value
 
 if (userEmail) {
     console.log("Got User Email")           // o/p: Got User Email    
