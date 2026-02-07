@@ -6,7 +6,7 @@
 const id = Symbol('1234')
 const anotherId = Symbol('1234')
 
-console.log(id ==anotherId)  //  o/p : false
+console.log(id == anotherId)  //  o/p : false
 
 const bigNum = 123454678901234n
 
