@@ -8,7 +8,7 @@
 <body style="background-color: #212121; color: #ffff;">
     <div class = "parent">
         <div class="day">Monday</div>
-        <div class="day">Tuesday</div>
+        <div class="day" id="2">Tuesday</div>
         <div class="day">Wednesday</div>
         <div class="day">Thursday</div>
     </div>
@@ -16,8 +16,14 @@
 <script>
     const parent = document.querySelector('.parent');
     //console.log(parent);
-    //console.log(parent.children);
+    //console.log(parent.children);        // parent.children returns html collection.
     //onsole.log(parent.children[1].innerHTML);
+
+    const div2 = document.getElementById('2');
+    console.log(div2);
+    console.log(div2.parentElement);
+    console.log(div2.nextElementSibling);
+
 
    //for (let i = 0; i < parent.children.length; i++) {
     //console.log(parent.children[i].innerHTML);
@@ -31,6 +37,6 @@
    //console.log(dayOne.parentElement)
    //console.log(dayOne.nextElementSibling)
 
-   console.log("Nodes : " + parent.childNodes);
+   //console.log("Nodes : " + parent.childNodes);
 </script>
 </html>
